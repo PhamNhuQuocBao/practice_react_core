@@ -1,30 +1,48 @@
-# React + TypeScript + Vite
+# Pham Nhu Quoc Bao__Practice
+This is practice to revise and improve knowledge React.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Team
+1 dev: Pham Nhu Quoc Bao
+1 mentor: Nguyen Tan Bao
 
-Currently, two official plugins are available:
+# Timeline
+3-4 week
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Design
+This is my design: [here](https://www.figma.com/file/ZPgFdwvWDqtTRTgzkCnLIO/Core---Dashboard-Builder-(Copy)?type=design&node-id=441-48750&mode=design&t=6xZgkMJKEC0vomSW-0)
 
-## Expanding the ESLint configuration
+# Target
+- Revise React knowledge 
+- Responsive UI
+- Storybook
+- Unit testing coverage more than 80%
+- React Query
+- React Router
+- Optimizing React Performance:
+- Code-Splitting
+- Re-render performance
+- Optimizing Page Speed Score Performance
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+# Requirements
+- Products Shop
+  - View Products card
+  - View user follower/following
+  - View Products detail
+- Filter/sort Products on the products shop page
+  - Sort products
+  - Filter by product name
+  - Filter by product rating
+  - Filter by product category 
+  - Filter by  product price
 
-- Configure the top-level `parserOptions` property like this:
+# Techstack
+- React 18 and Typescript
+- Vite template and deploy with Vercel
+- Tailwind Css (optional)
+- Material UI 
+- Storybook 
+- Unit testing with Jest and React Testing Library
+- React Query 
+- React Router 
+- Fake API with JSON server 
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
