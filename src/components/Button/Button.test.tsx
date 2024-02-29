@@ -1,16 +1,4 @@
-// import { render, screen } from "@testing-library/react";
 import "@testing-library/jest-dom";
-// import { Button } from "./index";
-// import test from "node:test";
-// import { ButtonType } from "@/enums";
-
-// test("renders Button", () => {
-//   render(<Button text="Button" buttonType={ButtonType.SUCCESS} />);
-//   const button = screen.getByText("Button");
-//   expect(button).toBeInTheDocument();
-// });
-
-// button.test.js
 import { render, fireEvent } from "@testing-library/react";
 import { Button } from "./index";
 
