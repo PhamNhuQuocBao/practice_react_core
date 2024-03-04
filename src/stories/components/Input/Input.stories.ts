@@ -20,6 +20,9 @@ const meta = {
       options: ["default", "error", "success", "outlined"],
       control: { type: "radio" },
     },
+    placeholder: {
+      control: { type: "text" },
+    },
   },
 } satisfies Meta<typeof Input>;
 
