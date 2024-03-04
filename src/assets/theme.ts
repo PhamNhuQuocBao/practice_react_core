@@ -11,7 +11,8 @@ export const customTheme = createTheme({
       main: "#b5e4ca",
     },
     warning: {
-      main: "#ffbc99",
+      main: "#FFBC9940",
+      dark: "#FF6A55",
     },
     background: {
       default: "#fcfcfc",
@@ -20,6 +21,7 @@ export const customTheme = createTheme({
     grey: {
       "100": "#f4f4f4",
       "200": "#6f767e",
+      "300": "#9A9FA5",
     },
     text: {
       primary: "#6f767e",
