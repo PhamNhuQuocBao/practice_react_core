@@ -16,7 +16,7 @@ export const customTheme = createTheme({
     },
     background: {
       default: "#fcfcfc",
-      paper: "#111315",
+      paper: "#11131570",
     },
     grey: {
       "100": "#f4f4f4",
