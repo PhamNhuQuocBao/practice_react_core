@@ -1,6 +1,6 @@
 import { FC, ReactNode, memo } from "react";
 import { ButtonProps } from "@mui/material";
-import { Button as ButtonStyled } from "./style";
+import { Button as ButtonStyled } from "./index.style";
 import { ButtonType } from "../../enums";
 
 interface ButtonPropsCus extends ButtonProps {
