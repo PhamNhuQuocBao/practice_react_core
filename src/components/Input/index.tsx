@@ -2,7 +2,7 @@ import { FC, ReactNode, memo } from "react";
 import { IconButton } from "@mui/material";
 import { InputBaseProps } from "@mui/material/InputBase";
 import { InputFill } from "../../enums";
-import { Input as InputStyled, Wrapper } from "./style";
+import { Input as InputStyled, Wrapper } from "./index.style";
 
 interface InputPropsCus extends InputBaseProps {
   iconLeft?: ReactNode;

@@ -1,8 +1,6 @@
-// import { Default } from "./Input.stories";
 import { Input } from "@/components/Input";
 import { InputFill } from "@/enums";
 import type { Meta, StoryObj } from "@storybook/react";
-// import MailIcon from "@/assets/icons/mail.svg";
 
 // More on how to set up stories at: https://storybook.js.org/docs/writing-stories#default-export
 const meta = {
@@ -33,17 +31,6 @@ type Story = StoryObj<typeof meta>;
 export const DefaultInput: Story = {
   args: {
     fill: InputFill.DEFAULT,
-  },
-};
-
-export const Error: Story = {
-  args: {
-    fill: InputFill.ERROR,
-  },
-};
-
-export const Outlined: Story = {
-  args: {
-    fill: InputFill.OUTLINED,
+    placeholder: "Input",
   },
 };
