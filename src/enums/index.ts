@@ -5,3 +5,10 @@ export enum ButtonType {
   ERROR = "error",
   INFO = "info",
 }
+
+export enum InputFill {
+  DEFAULT = "default",
+  OUTLINED = "outlined",
+  ERROR = "error",
+  SUCCESS = "success",
+}
