@@ -25,6 +25,9 @@ export const customTheme = createTheme({
       primary: "#6f767e",
       secondary: "#1a1d1f",
     },
+    secondary: {
+      main: "#fff",
+    },
   },
   typography: {
     fontFamily: "InterRegular, Arial",

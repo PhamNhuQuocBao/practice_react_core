@@ -1,6 +1,6 @@
 import { FC, ReactNode, memo } from "react";
 import { ButtonProps } from "@mui/material";
-import { Button as ButtonStyled } from "./style";
+import { Button as ButtonStyled } from "./index.style";
 import { ButtonType } from "../../enums";
 
 interface ButtonPropsCus extends ButtonProps {
@@ -12,7 +12,10 @@ interface ButtonPropsCus extends ButtonProps {
 export const Button: FC<ButtonPropsCus> = memo(
   ({ text, children, buttonType, ...rest }) => {
     return (
-      <ButtonStyled {...rest} className={`btn-custom btn-${buttonType}`}>
+      <ButtonStyled
+        {...rest}
+        className={`btn-custom btn-${buttonType} flex align-center justify-center gap-2`}
+      >
         {children}
         {text}
       </ButtonStyled>

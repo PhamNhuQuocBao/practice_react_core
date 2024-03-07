@@ -35,17 +35,3 @@ export const Primary: Story = {
     text: "Button",
   },
 };
-
-export const Large: Story = {
-  args: {
-    size: "large",
-    text: "Button",
-  },
-};
-
-export const Small: Story = {
-  args: {
-    size: "small",
-    text: "Button",
-  },
-};
